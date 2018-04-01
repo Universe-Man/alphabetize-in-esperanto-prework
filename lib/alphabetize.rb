@@ -10,5 +10,5 @@ def alphabetize(arr)
 
   #   binding.pry
     end
-    binding.pry
+puts super_new_array
 end
