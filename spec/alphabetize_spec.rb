@@ -3,7 +3,7 @@ describe "#alphabetize" do
   # ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
   it 'alphabetizes based on the first letter' do
-    expressions = ["mia amas vin""mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
+    expressions = ["mia amas vin", "mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
     sorted_expressions = ["bonan matenon", "ĉu vi parolas esperanton", "mi amas vin", "pacon"]
     expect(alphabetize(expressions)).to eq(sorted_expressions)
   end
