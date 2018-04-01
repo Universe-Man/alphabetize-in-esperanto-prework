@@ -8,6 +8,7 @@ def alphabetize(arr)
         espe_alpha.index(i)
       end
 
-  #    binding.pry
+  #   binding.pry
     end
+    binding.pry
 end
