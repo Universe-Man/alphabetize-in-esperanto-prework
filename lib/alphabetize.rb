@@ -12,4 +12,4 @@ def alphabetize(arr)
     end
 puts super_new_array
 end
-alphabetize(["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"])
+alphabetize(["mia amas vin", "mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"])
