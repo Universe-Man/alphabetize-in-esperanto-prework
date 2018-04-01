@@ -4,7 +4,7 @@ def alphabetize(arr)
   espe_alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars
     arr.sort_by do |phrase|
       new_array = phrase.chars.map do |i|
-        binding.pry
+      #  binding.pry
         espe_alpha.index(i)
       end
 
