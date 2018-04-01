@@ -7,6 +7,4 @@ def alphabetize(arr)
       espe_alpha.index(i)
     end
   end
-
-  # code here
 end
